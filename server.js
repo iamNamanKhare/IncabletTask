@@ -11,6 +11,10 @@ mongoose.connect(process.env.dbURI, { useNewUrlParser: true, useUnifiedTopology:
     console.log("Connected to Database")
 })
 
+app.use(express.urlencoded({extended: true}));
+app.use(express.json());
+
+
 app.use('/profile', profileRoute)
 
 app.use('/default', defaultAPIRoute)

@@ -13,10 +13,10 @@ router.get('/', async (req, res) => {
     }
 })
 
-router.post('/', upload.single('photo'), (req, res) => {
-    
-    if(req.file) {
+router.post('/', upload.single('photo'), (req, res) => {    
 
+    // console.log(req)
+    try{
         const Profile = new UserModel({
             name: req.body.name,
             age: req.body.age,
@@ -33,9 +33,8 @@ router.post('/', upload.single('photo'), (req, res) => {
             console.log(err);
             res.status(503).json({ message: err });
         })
-
-    } else {
-        console.log(error);
+    }catch(e) {
+        console.log(e);
         res.json({message: "Some Error Occurred"})
     }
 });

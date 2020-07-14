@@ -1,0 +1,116 @@
+html, body, input, button, textarea {
+    font-family: inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,apple color emoji,segoe ui emoji,segoe ui symbol,sans-serif;
+}
+
+.fetch-btns  > *{
+    margin-left: 10px;
+}
+
+.fetch-btns {
+    float: right;
+}
+  
+.navbar-nav {
+    margin-left: 10px;
+}
+
+.form-group {
+    margin-top: 8px;
+}
+
+.card-custom {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    border: 1px lightgray solid;
+    margin: 25px;
+    transition: 0.3s;
+    padding: 20px;
+    height: 20.5rem;
+    width: 17rem;
+    border-radius: 5px;
+    line-height: 1.5;
+  
+  }
+
+  .card-deck {
+      padding: 30px;
+      margin-left: 50px;
+    }
+
+  /* On mouse-over, add a deeper shadow */
+  .card-custom:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  
+  .card-image {
+    max-width: 6rem;
+    max-height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 1px lightgray;
+    background-image:url('guest-user.jpg');
+  }
+  
+  .position-title {
+    font-size: 1.3rem;
+    display: inline;
+    margin-top: 15px;
+  }
+  
+  .gender {
+    margin-top: 2px;
+    font-weight: 380;
+    font-size: 1rem;
+    display: inline;
+  }
+  
+  .age {
+    display: inline;
+    font-size: 1.1rem;
+    font-weight: 450;
+    margin-top: 5px;
+  }
+  
+  .age-value {
+    font-weight: 390;
+    display: inline;
+    /* text-align: left; */
+  }
+  
+  .status {
+    margin-top: 4px;
+    display: inline;
+    font-size: 1.2rem;
+    font-weight: 450;
+  }
+  
+  .status-value {
+    font-weight: 400;
+    display: inline;
+  }
+  .redStatus {
+    color: red;
+  }
+  .blueStatus {
+    color: blue;
+}
+.greenStatus {
+    color: green    ;  
+}
+  
+  .date {
+    margin-top:5px;
+    display: inline;
+    font-size: 1.1rem;
+    font-weight: 450;
+  }
+  
+  .date-value {
+    display: inline;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
